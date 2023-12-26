@@ -1,0 +1,10 @@
+Flask Python application
+
+to run activate venv from root directory:
+source venv/bin/activate
+
+launch application with:
+flask run
+
+then access on local at:
+http://localhost:5000/
