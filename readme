@@ -1,7 +1,13 @@
-Flask Python application
+##Flask Python application
 
-to run activate venv from root directory:
+after cloning create venv with:
+python3 -m venv venv
+
+activate the venv:
 source venv/bin/activate
+
+install dependiencies from requirements.txt:
+pip install -r requirements.txt
 
 launch application with:
 flask run
