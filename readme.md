@@ -6,7 +6,7 @@ python3 -m venv venv
 ```
 
 activate the venv:
-```
+```bash
 source venv/bin/activate
 ```
 
@@ -20,7 +20,12 @@ launch application with:
 flask run
 ```
 
-then access on local at:
+run emulated email server:
 ```
-http://localhost:5000/
+aiosmtpd -n -c aiosmtpd.handlers.Debugging -l localhost:8025
+```
+
+run test suite with:
+```
+python tests.py
 ```
