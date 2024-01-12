@@ -48,6 +48,9 @@ if not app.debug:
 
 from app import routes, models, errors
 
+
+
+#TODO should I remove this?
 from .models import User, Post
 
 with app.app_context():
